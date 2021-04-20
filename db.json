@@ -69,6 +69,16 @@
       "featured": false,
       "description": "Get inspired to mix it up a little with 7UP! Crisp and refreshing, it mixes into all kinds of drinks, cocktails, punches, baked goods, and more, perfect for you!",
       "id": 6
+    },
+    {
+      "name": "Coca-cola",
+      "image": "assets/images/7cocacola.jpg",
+      "category": "drink",
+      "label": "",
+      "price": "70",
+      "featured": false,
+      "description": "Get inspired to mix it up a little with Coca-cola! Crisp and refreshing, it mixes into all kinds of drinks, cocktails, punches, baked goods, and more, perfect for you!",
+      "id": 7
     }
   ],
   "comments": [
