@@ -451,14 +451,54 @@
       "comment": "Imagine all the eatables, living in conFusion!",
       "author": "Nova",
       "date": "2021-04-18T17:57:28.556094Z"
+    },
+    {
+      "dishId": 3,
+      "author": "Nova",
+      "rating": "5",
+      "comment": "Just Awesome!!",
+      "date": "2021-04-20T20:36:51.884Z",
+      "id": 45
+    },
+    {
+      "dishId": 8,
+      "author": "Sumona",
+      "rating": "5",
+      "comment": "So Yummy!",
+      "date": "2021-04-20T20:37:41.812Z",
+      "id": 46
     }
   ],
-  "feedback": [],
-  "homescreen": [
+  "feedback": [
     {
-      "id": 0,
-      "name": "Ice Cream",
-      "image": "images/comingsoon.jpg"
+      "firstname": "Sabrina",
+      "lastname": "Sumona",
+      "telnum": "01965808535",
+      "email": "snsbauet04@gmail.com",
+      "agree": false,
+      "contactType": "Tel.",
+      "message": "Your services are excellent!",
+      "id": 1
+    },
+    {
+      "firstname": "Nabiha",
+      "lastname": "Nadia",
+      "telnum": "123456",
+      "email": "nova@gmail.com",
+      "agree": true,
+      "contactType": "Tel.",
+      "message": "I love happy restaurant!",
+      "id": 2
+    },
+    {
+      "firstname": "Jeba",
+      "lastname": "Fariha",
+      "telnum": "909090",
+      "email": "jeba@gmail.com",
+      "agree": false,
+      "contactType": "Tel.",
+      "message": "Your food is just awesome!",
+      "id": 3
     }
   ]
 }
