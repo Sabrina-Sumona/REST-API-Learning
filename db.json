@@ -3,7 +3,7 @@
     {
       "id": 0,
       "name": "Ice Cream",
-      "image": "assets/images/5icecream.jpg",
+      "image": "images/5icecream.jpg",
       "category": "dessert",
       "label": "",
       "price": 80,
@@ -12,8 +12,8 @@
     },
     {
       "id": 1,
-      "name": "Ice Cream",
-      "image": "assets/images/5icecream.jpg",
+      "name": "Cheese Cake",
+      "image": "images/3cake.jpg",
       "category": "dessert",
       "label": "",
       "price": 170,
@@ -23,7 +23,7 @@
     {
       "id": 2,
       "name": "French Fries",
-      "image": "assets/images/2fries.jpg",
+      "image": "images/2fries.jpg",
       "category": "appetizer",
       "label": "New",
       "price": 120,
@@ -33,7 +33,7 @@
     {
       "id": 3,
       "name": "Chicken Biryani",
-      "image": "assets/images/4biryani.jpg",
+      "image": "images/4biryani.jpg",
       "category": "meal",
       "label": "",
       "price": "180",
@@ -43,7 +43,7 @@
     {
       "id": 4,
       "name": "Ginger Burger",
-      "image": "assets/images/0burger.jpg",
+      "image": "images/0burger.jpg",
       "category": "meal",
       "label": "Hot",
       "price": 199,
@@ -51,9 +51,19 @@
       "description": "This chicken burger gets an Asian-flavor twist with ginger and garlic. It\\'s topped off with a fabulous coleslaw. If you like, serve the coleslaw as a side for grilled items, like chicken breasts, fish fillets or chops"
     },
     {
-      "id": 5,
+      "name": "7UP",
+      "image": "images/67up.jpg",
+      "category": "drink",
+      "label": "",
+      "price": "70",
+      "featured": false,
+      "description": "Get inspired to mix it up a little with 7UP! Crisp and refreshing, it mixes into all kinds of drinks, cocktails, punches, baked goods, and more, perfect for you!",
+      "id": 5
+    },
+    {
+      "id": 6,
       "name": "BBQ Chicken Pizza",
-      "image": "assets/images/1pizza.jpg",
+      "image": "images/1pizza.jpg",
       "category": "meal",
       "label": "",
       "price": 599,
@@ -61,24 +71,24 @@
       "description": "BBQ chicken pizza with tangy BBQ sauce, chicken, and red onion. Gouda cheese gives the homemade pizza the most delicious smoky flavor and cilantro adds a touch of freshness. My pizza dough recipe makes enough for two 12-inch pizzas, so you can freeze half for later. It’s an easy thick-style pizza crust with unbeatable flavor."
     },
     {
-      "name": "7UP",
-      "image": "assets/images/67up.jpg",
-      "category": "drink",
-      "label": "",
-      "price": "70",
-      "featured": false,
-      "description": "Get inspired to mix it up a little with 7UP! Crisp and refreshing, it mixes into all kinds of drinks, cocktails, punches, baked goods, and more, perfect for you!",
-      "id": 6
-    },
-    {
       "name": "Coca-cola",
-      "image": "assets/images/7cocacola.jpg",
+      "image": "images/7cocacola.jpg",
       "category": "drink",
       "label": "",
       "price": "70",
       "featured": false,
       "description": "Get inspired to mix it up a little with Coca-cola! Crisp and refreshing, it mixes into all kinds of drinks, cocktails, punches, baked goods, and more, perfect for you!",
       "id": 7
+    },
+    {
+      "name": "Fried Rice",
+      "image": "images/8friedrice.jpg",
+      "category": "meal",
+      "label": "",
+      "price": "100",
+      "featured": false,
+      "description": "When it comes to a one-pot meal, quick fried rice can be the best bet. However, if you want to up your protein intake, then you can add generous pieces of chicken and make a flavourful chicken fried rice. Here, we share a Chicken Fried Rice recipe that is easy to make and is an ideal fix for a lazy lunch or dinner.",
+      "id": 8
     }
   ],
   "comments": [
@@ -91,50 +101,357 @@
       "date": "2021-04-16T17:57:28.556094Z"
     },
     {
-      "dishId": 1,
+      "dishId": 0,
       "id": 1,
-      "rating": 5,
-      "comment": "Imagine all the eatables, living in conFusion!",
-      "author": "Tumpa",
-      "date": "2021-04-16T17:57:28.556094Z"
+      "rating": 4,
+      "comment": "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+      "author": "Kona",
+      "date": "2021-03-05T17:57:28.556094Z"
     },
     {
-      "dishId": 2,
+      "dishId": 0,
       "id": 2,
-      "rating": 5,
-      "comment": "Imagine all the eatables, living in conFusion!",
-      "author": "Shanta",
-      "date": "2021-04-16T17:57:28.556094Z"
+      "rating": 3,
+      "comment": "Eat it, just eat it!",
+      "author": "Minu",
+      "date": "2021-02-13T17:57:28.556094Z"
     },
     {
-      "dishId": 3,
+      "dishId": 0,
       "id": 3,
-      "rating": 5,
-      "comment": "Imagine all the eatables, living in conFusion!",
-      "author": "Tumpa",
-      "date": "2021-04-16T17:57:28.556094Z"
+      "rating": 4,
+      "comment": "Ultimate, Reaching for the stars!",
+      "author": "Rifat",
+      "date": "2021-01-02T17:57:28.556094Z"
     },
     {
-      "dishId": 4,
+      "dishId": 0,
       "id": 4,
-      "rating": 5,
+      "rating": 2,
       "comment": "Imagine all the eatables, living in conFusion!",
-      "author": "Shanta",
-      "date": "2021-04-16T17:57:28.556094Z"
+      "author": "Nova",
+      "date": "2020-12-02T17:57:28.556094Z"
     },
     {
-      "dishId": 5,
+      "dishId": 1,
       "id": 5,
       "rating": 5,
       "comment": "Imagine all the eatables, living in conFusion!",
       "author": "Tumpa",
       "date": "2021-04-16T17:57:28.556094Z"
+    },
+    {
+      "dishId": 1,
+      "id": 6,
+      "rating": 4,
+      "comment": "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+      "author": "Kona",
+      "date": "2021-03-05T17:57:28.556094Z"
+    },
+    {
+      "dishId": 1,
+      "id": 7,
+      "rating": 3,
+      "comment": "Eat it, just eat it!",
+      "author": "Mona",
+      "date": "2021-02-13T17:57:28.556094Z"
+    },
+    {
+      "dishId": 1,
+      "id": 8,
+      "rating": 4,
+      "comment": "Ultimate, Reaching for the stars!",
+      "author": "Gourab",
+      "date": "2020-12-02T17:57:28.556094Z"
+    },
+    {
+      "dishId": 1,
+      "id": 9,
+      "rating": 2,
+      "comment": "It's your birthday, we're gonna party!",
+      "author": "Sagor",
+      "date": "2020-11-16T17:57:28.556094Z"
+    },
+    {
+      "dishId": 2,
+      "id": 10,
+      "rating": 5,
+      "comment": "Imagine all the eatables, living in conFusion!",
+      "author": "Shanta",
+      "date": "2021-04-16T17:57:28.556094Z"
+    },
+    {
+      "dishId": 2,
+      "id": 11,
+      "rating": 4,
+      "comment": "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+      "author": "Kona",
+      "date": "2021-03-05T17:57:28.556094Z"
+    },
+    {
+      "dishId": 2,
+      "id": 12,
+      "rating": 3,
+      "comment": "Eat it, just eat it!",
+      "author": "Minu",
+      "date": "2021-02-13T17:57:28.556094Z"
+    },
+    {
+      "dishId": 2,
+      "id": 13,
+      "rating": 4,
+      "comment": "Ultimate, Reaching for the stars!",
+      "author": "Rifat",
+      "date": "2021-01-02T17:57:28.556094Z"
+    },
+    {
+      "dishId": 2,
+      "id": 14,
+      "rating": 2,
+      "comment": "Imagine all the eatables, living in conFusion!",
+      "author": "Nova",
+      "date": "2020-12-02T17:57:28.556094Z"
+    },
+    {
+      "dishId": 3,
+      "id": 15,
+      "rating": 5,
+      "comment": "Imagine all the eatables, living in conFusion!",
+      "author": "Tumpa",
+      "date": "2021-04-16T17:57:28.556094Z"
+    },
+    {
+      "dishId": 3,
+      "id": 16,
+      "rating": 4,
+      "comment": "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+      "author": "Kona",
+      "date": "2021-03-05T17:57:28.556094Z"
+    },
+    {
+      "dishId": 3,
+      "id": 17,
+      "rating": 3,
+      "comment": "Eat it, just eat it!",
+      "author": "Mona",
+      "date": "2021-02-13T17:57:28.556094Z"
+    },
+    {
+      "dishId": 3,
+      "id": 18,
+      "rating": 4,
+      "comment": "Ultimate, Reaching for the stars!",
+      "author": "Gourab",
+      "date": "2020-12-02T17:57:28.556094Z"
+    },
+    {
+      "dishId": 3,
+      "id": 19,
+      "rating": 2,
+      "comment": "It's your birthday, we're gonna party!",
+      "author": "Sagor",
+      "date": "2020-11-16T17:57:28.556094Z"
+    },
+    {
+      "dishId": 4,
+      "id": 20,
+      "rating": 5,
+      "comment": "Imagine all the eatables, living in conFusion!",
+      "author": "Shanta",
+      "date": "2021-04-16T17:57:28.556094Z"
+    },
+    {
+      "dishId": 4,
+      "id": 21,
+      "rating": 4,
+      "comment": "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+      "author": "Kona",
+      "date": "2021-03-05T17:57:28.556094Z"
+    },
+    {
+      "dishId": 4,
+      "id": 22,
+      "rating": 3,
+      "comment": "Eat it, just eat it!",
+      "author": "Minu",
+      "date": "2021-02-13T17:57:28.556094Z"
+    },
+    {
+      "dishId": 4,
+      "id": 23,
+      "rating": 4,
+      "comment": "Ultimate, Reaching for the stars!",
+      "author": "Rifat",
+      "date": "2021-01-02T17:57:28.556094Z"
+    },
+    {
+      "dishId": 4,
+      "id": 24,
+      "rating": 2,
+      "comment": "Imagine all the eatables, living in conFusion!",
+      "author": "Nova",
+      "date": "2020-12-02T17:57:28.556094Z"
+    },
+    {
+      "dishId": 5,
+      "id": 25,
+      "rating": 5,
+      "comment": "Imagine all the eatables, living in conFusion!",
+      "author": "Tumpa",
+      "date": "2021-04-16T17:57:28.556094Z"
+    },
+    {
+      "dishId": 5,
+      "id": 26,
+      "rating": 4,
+      "comment": "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+      "author": "Kona",
+      "date": "2021-03-05T17:57:28.556094Z"
+    },
+    {
+      "dishId": 5,
+      "id": 27,
+      "rating": 3,
+      "comment": "Eat it, just eat it!",
+      "author": "Mona",
+      "date": "2021-02-13T17:57:28.556094Z"
+    },
+    {
+      "dishId": 5,
+      "id": 28,
+      "rating": 4,
+      "comment": "Ultimate, Reaching for the stars!",
+      "author": "Gourab",
+      "date": "2020-12-02T17:57:28.556094Z"
+    },
+    {
+      "dishId": 5,
+      "id": 29,
+      "rating": 2,
+      "comment": "It's your birthday, we're gonna party!",
+      "author": "Sagor",
+      "date": "2020-11-16T17:57:28.556094Z"
+    },
+    {
+      "dishId": 6,
+      "id": 30,
+      "rating": 5,
+      "comment": "Imagine all the eatables, living in conFusion!",
+      "author": "Shanta",
+      "date": "2021-04-16T17:57:28.556094Z"
+    },
+    {
+      "dishId": 6,
+      "id": 31,
+      "rating": 4,
+      "comment": "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+      "author": "Kona",
+      "date": "2021-03-05T17:57:28.556094Z"
+    },
+    {
+      "dishId": 6,
+      "id": 32,
+      "rating": 3,
+      "comment": "Eat it, just eat it!",
+      "author": "Minu",
+      "date": "2021-02-13T17:57:28.556094Z"
+    },
+    {
+      "dishId": 6,
+      "id": 33,
+      "rating": 4,
+      "comment": "Ultimate, Reaching for the stars!",
+      "author": "Rifat",
+      "date": "2021-01-02T17:57:28.556094Z"
+    },
+    {
+      "dishId": 6,
+      "id": 34,
+      "rating": 2,
+      "comment": "Imagine all the eatables, living in conFusion!",
+      "author": "Nova",
+      "date": "2020-12-02T17:57:28.556094Z"
+    },
+    {
+      "dishId": 7,
+      "id": 35,
+      "rating": 5,
+      "comment": "Imagine all the eatables, living in conFusion!",
+      "author": "Tumpa",
+      "date": "2021-04-16T17:57:28.556094Z"
+    },
+    {
+      "dishId": 7,
+      "id": 36,
+      "rating": 4,
+      "comment": "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+      "author": "Kona",
+      "date": "2021-03-05T17:57:28.556094Z"
+    },
+    {
+      "dishId": 7,
+      "id": 37,
+      "rating": 3,
+      "comment": "Eat it, just eat it!",
+      "author": "Mona",
+      "date": "2021-02-13T17:57:28.556094Z"
+    },
+    {
+      "dishId": 7,
+      "id": 38,
+      "rating": 4,
+      "comment": "Ultimate, Reaching for the stars!",
+      "author": "Gourab",
+      "date": "2020-12-02T17:57:28.556094Z"
+    },
+    {
+      "dishId": 7,
+      "id": 39,
+      "rating": 2,
+      "comment": "It's your birthday, we're gonna party!",
+      "author": "Sagor",
+      "date": "2020-11-16T17:57:28.556094Z"
+    },
+    {
+      "dishId": 8,
+      "id": 40,
+      "rating": 5,
+      "comment": "Imagine all the eatables, living in conFusion!",
+      "author": "Shanta",
+      "date": "2021-04-16T17:57:28.556094Z"
+    },
+    {
+      "dishId": 8,
+      "id": 41,
+      "rating": 4,
+      "comment": "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+      "author": "Kona",
+      "date": "2021-03-05T17:57:28.556094Z"
+    },
+    {
+      "dishId": 8,
+      "id": 42,
+      "rating": 3,
+      "comment": "Eat it, just eat it!",
+      "author": "Minu",
+      "date": "2021-02-13T17:57:28.556094Z"
+    },
+    {
+      "dishId": 8,
+      "id": 43,
+      "rating": 4,
+      "comment": "Ultimate, Reaching for the stars!",
+      "author": "Rifat",
+      "date": "2021-01-02T17:57:28.556094Z"
+    },
+    {
+      "dishId": 8,
+      "id": 44,
+      "rating": 2,
+      "comment": "Imagine all the eatables, living in conFusion!",
+      "author": "Nova",
+      "date": "2020-12-02T17:57:28.556094Z"
     }
   ],
-  "feedback": [
-    {
-      "type1": "positive",
-      "type2": "negative"
-    }
-  ]
+  "feedback": []
 }
