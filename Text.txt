@@ -20,3 +20,15 @@
 // https://jsonplaceholder.typicode.com/
 // https://docs.github.com/en/
 
+// Resources
+// http://localhost:3001/dishes
+// http://localhost:3001/comments
+// http://localhost:3001/feedback
+
+// Home
+// http://localhost:3001
+
+// https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX
+// https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+// https://github.com/axios/axios
+
