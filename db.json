@@ -453,5 +453,12 @@
       "date": "2021-04-18T17:57:28.556094Z"
     }
   ],
-  "feedback": []
+  "feedback": [],
+  "homescreen": [
+    {
+      "id": 0,
+      "name": "Ice Cream",
+      "image": "images/comingsoon.jpg"
+    }
+  ]
 }
