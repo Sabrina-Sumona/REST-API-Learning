@@ -20,6 +20,9 @@
 // https://jsonplaceholder.typicode.com/
 // https://docs.github.com/en/
 
+json server starting command:
+json-server db.json --watch -p 3001
+
 // Resources
 // http://localhost:3001/dishes
 // http://localhost:3001/comments
